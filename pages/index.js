@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Wave from "../src/components/Wave";
+import Wave from "../components/Wave";
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
         <h2>testing out the initial setup</h2>
       </main>
       <div>
+        <Wave />
         <Wave />
         <Wave />
         <Wave />
